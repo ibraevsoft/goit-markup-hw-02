@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-home_work_2
+# goit-markup-hw-01
+Урок 1, HTML-CSS
