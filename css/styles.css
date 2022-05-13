@@ -86,8 +86,14 @@ body {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    /*color: #FFFFFF;*/
     cursor: pointer;
+    color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    color: #FFFFFF;
+    background-color: var(--brand-color);
 }
 
 /*=========ADVANTAGE=========*/
