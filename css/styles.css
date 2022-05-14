@@ -24,11 +24,11 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: var(--brand-color);
 }
 
 .logo-web {
-    color: var(--brand-color);
+    color: var(--accent-color);
 }
 
 .block-header {
@@ -48,10 +48,12 @@ body {
     color: var(--accent-color)
 }
 
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
     color: var(--brand-color);
 }
-.menu-link:focus {
+
+.menu .link.current {
     color: var(--brand-color);
 }
 
@@ -63,14 +65,16 @@ body {
     color: var(--text-color)
 }
 
-.contact-link:hover {
-    color: var(--brand-color);
-}
+.contact-link:hover, 
 .contact-link:focus {
     color: var(--brand-color);
 }
 
 /*=========HERO=========*/
+.hero {
+    background: #2F303A;;
+}
+
 .hero-header {
     font-weight: 900;
     font-size: 44px;
@@ -78,7 +82,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .modal-btn {
@@ -87,13 +91,13 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: var(--accent-color);
+    color: #FFFFFF;
+    background-color: var(--brand-color);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    color: #FFFFFF;
-    background-color: var(--brand-color);
+    background-color: #188CE8;
 }
 
 /*=========ADVANTAGE=========*/
@@ -115,6 +119,10 @@ body {
 /*=========SERVICES=========*/
 
 /*=========OUR TEAM=========*/
+.our-team {
+    background: #F5F4FA;
+}
+
 .name-team {
     font-weight: 500;
     font-size: 16px;
@@ -132,6 +140,14 @@ body {
 }
 
 /*=========FOOTER=========*/
+.footer {
+    background: #2F303A;
+}
+
+.logo-footer {
+    color: #fff;
+}
+
 .contacts {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -142,11 +158,11 @@ body {
 }
 
 .footer-address-link {
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .footer-contact-link {
-    /*color: rgba(255, 255, 255, 0.6);*/
+    color: rgba(255, 255, 255, 0.6);
 }
 
 /*=========PORTFOLIO=========*/
@@ -156,6 +172,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    background: #F5F4FA;
 }
 
 .filter-type-btn:hover,
